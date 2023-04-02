@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+echo "Is it morning or night?"
+read dayornight
+
+if [ "$dayornight" = "morning" ]; then
+echo "That's good! I have some time life"
+else 
+echo "Dang I need to finish this soon"
+fi
+
