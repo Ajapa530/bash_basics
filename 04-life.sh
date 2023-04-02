@@ -18,8 +18,8 @@ echo "Is it morning or night?"
 read dayornight
 
 if [ "$dayornight" = "morning" ]; then
-echo "That's good! I have some time life"
+echo "It's about time for breakfast."
 else 
-echo "Dang I need to finish this soon"
+echo "It's about time for dinner."
 fi
 
