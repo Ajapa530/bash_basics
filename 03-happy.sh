@@ -14,3 +14,13 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+#!/bin/bash
+
+day=$(date +%u)
+
+if [ $day -eq 6 ] || [ $day -eq 7 ]
+then
+  echo "It's the weekend!"
+else
+  echo "It's not the weekend yet."
+fi
